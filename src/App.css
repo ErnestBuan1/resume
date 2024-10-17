@@ -1,0 +1,43 @@
+
+* {
+  box-sizing: border-box;
+}
+
+.resume-container {
+  border: 4px solid black;
+  height: 850px;
+}
+
+.resume-header {
+  height: 130px;
+  background-color: #005a51;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.resume-content {
+  display: flex;
+  height: 700px;
+  padding: 0 15px;
+}
+
+.personal-info {
+  flex: 1;
+  background-color: lightgray;
+  padding-right: 20px;
+}
+
+.contact-section, .education-section, .skills-section {
+  text-align: right;
+  margin-bottom: 15px;
+}
+
+.experience-section {
+  flex: 2;
+  background-color: lightgray;
+  padding-left: 20px;
+}
+
+.learning-experience > ul > li {
+  text-align: justify;
+}
